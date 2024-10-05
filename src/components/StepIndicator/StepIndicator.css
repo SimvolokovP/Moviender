@@ -1,0 +1,22 @@
+.step-indicator {  
+    display: flex;  
+    justify-content: center; 
+    margin-bottom: 10px; 
+  }  
+  
+  .step-circle {  
+    width: 10px;  
+    height: 10px;  
+    border-radius: 50%;  
+    background-color: #1A2940;
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    margin: 0 10px; 
+    font-weight: bold;  
+    color: white;  
+  }  
+  
+  .step-circle.active {  
+    background-color: #2E52F8;
+  }  

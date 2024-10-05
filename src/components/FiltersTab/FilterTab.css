@@ -1,0 +1,26 @@
+.filters-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.filter-tabs__item {
+  cursor: pointer;
+  background-color: #1a2940;
+  width: 112px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 4px;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-size: 14px;
+}
+
+.filter-tabs__item.active {
+  background-color: #2e52f8;
+}

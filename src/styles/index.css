@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400..700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-arrow {
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  width: 48px;
+  height: 32px;
+  background-color: #2e52f8;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.common-btn {
+  min-width: 90px;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 8px 0;
+  border: 2px solid #2e52f8;
+  outline: none;
+  width: 100%;
+}
+
+.common-btn:disabled {
+  background-color: #1a2940;
+}

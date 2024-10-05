@@ -1,0 +1,23 @@
+.movie-card {
+  grid-area: 1 / 1;
+  transition: transform 0.125s;
+  opacity: 1;
+  will-change: transform;
+  transform: scale(0.98) rotate(6deg);
+  width: 18rem;
+  display: block;
+  border-radius: 0.5rem;
+  height: 24rem;
+  cursor: grab;
+  border-radius: 8px;
+}
+
+.movie-image {
+  border-radius: 8px;
+  object-fit: cover;
+  transform-origin: bottom;
+  vertical-align: middle;
+  border: 2px solid red;
+  width: 18rem;
+  height: 24rem;
+}

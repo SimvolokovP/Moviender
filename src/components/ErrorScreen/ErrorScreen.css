@@ -1,0 +1,21 @@
+.error-screen {
+  position: fixed;
+  background-color: #00102a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  left: 0;
+  right: 0;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  height: 100%;
+  gap: 10px;
+}
+
+.error-screen a {
+    width: 210px;
+}
