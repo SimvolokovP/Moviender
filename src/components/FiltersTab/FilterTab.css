@@ -19,8 +19,13 @@
   transition: all 0.3s ease-in-out;
   text-align: center;
   font-size: 14px;
+  color: #ffffff;
 }
 
 .filter-tabs__item.active {
   background-color: #2e52f8;
+}
+
+.filter-tabs__item svg {
+    color: #ffffff;
 }

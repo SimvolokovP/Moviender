@@ -1,6 +1,6 @@
 .error-screen {
   position: fixed;
-  background-color: #00102a;
+  background-color: var(--tg-theme-bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,6 +14,7 @@
   z-index: 10;
   height: 100%;
   gap: 10px;
+  color: var(--tg-theme-text-color);
 }
 
 .error-screen a {

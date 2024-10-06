@@ -4,7 +4,7 @@ import './LoadingScreen.css';
 const LoadingScreen = () => {
   return (
     <div className="loading-screen">
-      <InfinitySpin color="#FFF" />
+      <InfinitySpin color="var(--tg-theme-text-color)" />
     </div>
   );
 };

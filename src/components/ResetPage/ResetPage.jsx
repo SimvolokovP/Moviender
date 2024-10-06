@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addPage } from "../../store/filtersSlice";
 import { clearMovies, fetchMovies } from "../../store/moviesSlice";
 import { useNavigate } from "react-router-dom";
+import "./ResetPage.css";
 
 const ResetPage = () => {
   const dispatch = useDispatch();
@@ -22,9 +23,15 @@ const ResetPage = () => {
   };
 
   return (
-    <div>
-      {page + 1 < 6 && <button onClick={fetchNewMovies}>btn</button>}
-      <button onClick={resetFilters}>to main page</button>
+    <div className="reset-page">
+      {page + 1 < 6 && (
+        <button className={"common-btn"} onClick={fetchNewMovies}>
+          Загрузить еще
+        </button>
+      )}
+      <button className={"common-btn"} onClick={resetFilters}>
+        Сбросить фильтры
+      </button>
     </div>
   );
 };

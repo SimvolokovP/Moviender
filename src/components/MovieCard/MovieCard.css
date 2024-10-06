@@ -4,12 +4,20 @@
   opacity: 1;
   will-change: transform;
   transform: scale(0.98) rotate(6deg);
-  width: 18rem;
+  width: 220px;
   display: block;
-  border-radius: 0.5rem;
-  height: 24rem;
+  height: 280px;
   cursor: grab;
   border-radius: 8px;
+  position: relative;
+}
+
+.movie-title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .movie-image {
@@ -17,7 +25,6 @@
   object-fit: cover;
   transform-origin: bottom;
   vertical-align: middle;
-  border: 2px solid red;
-  width: 18rem;
-  height: 24rem;
+  width: 220px;
+  height: 280px;
 }

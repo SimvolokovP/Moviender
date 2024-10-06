@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  movies: [],
+  likedMovies: [],
 };
 
 const likedMoviesSlice = createSlice({
@@ -9,7 +9,7 @@ const likedMoviesSlice = createSlice({
   initialState,
   reducers: {
     addLikedMovie(state, action) {
-      state.movies.push(action.payload);
+      state.likedMovies.push(action.payload);
     },
   },
 });

@@ -18,6 +18,8 @@ import {
   RiTvLine,
 } from "react-icons/ri";
 
+export const tgUrl = "https://1473-5-187-75-31.ngrok-free.app";
+
 const filterGenres = [
   { text: "Все", value: null, icon: RiMovie2Line },
   { text: "Боевик", value: 11, icon: RiInfraredThermometerLine },
